@@ -483,73 +483,136 @@ header.sticky{
 	}
 }
 
-
-/* partie de css de contact us */
-
-
-
-
-h1 {
-    text-align: center;
-    color: #333;
+.contact form{
+    max-width: 100%;
+    width: 450px;
+    position: relative;
 }
-
-.form-style {
+.contact form input{
+    display: inline-block;
     width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-	margin-top: 50px;
-    padding: 20px;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 150px 20px 30px;
+    box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+    outline: none;
+    border: none;
+    border-radius: 15px;
 }
-
-.form-style td {
-    padding: 10px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
+.contact form textarea{
+    display: inline-block;
     width: 100%;
-    padding: 10px;
+    padding: 20px 150px 20px 30px;
+    box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+    outline: none;
+    border: none;
+    border-radius: 15px;
+}
+.contact form input:last-child{
+
+    outline: none;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 15px;
+    background: var(--main-color);
+    color: var(--bg-color);
+    top: 6px;
+    right: 6px;
+    cursor: pointer;
+}
+
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-}
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
 
-input[type="submit"],
-input[type="reset"] {
-    padding: 10px 15px;
-    border: none;
+  input[type=email],input[type=date] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
     border-radius: 4px;
-    background-color: #5cb85c;
-    color: white;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+
+ 
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 5%;
+  }
+
+  .contact div{
+
+	display: flex; 
+	justify-content: center; 
+	align-items: center;
+	flex-direction: column;
+  }
+
+  .contact h1{
+	justify-content: center;
+  }
+
+  .contact1 .div{
+
+	display: flex; 
+	justify-content: center; 
+	align-items: center;
+	flex-direction: column;
+  }
+
+  
+.contact1 form{
+    max-width: 100%;
+    width: 450px;
+    position: relative;
+}
+.contact1 form input{
+    display: inline-block;
+    width: 100%;
+    padding: 20px 150px 20px 30px;
+    box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+    outline: none;
+    border: none;
+    border-radius: 15px;
+}
+.contact1 form textarea{
+    display: inline-block;
+    width: 100%;
+    padding: 20px 150px 20px 30px;
+    box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+    outline: none;
+    border: none;
+    border-radius: 15px;
+}
+.contact1 form input:last-child{
+
+    outline: none;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 15px;
+    background: var(--main-color);
+    color: var(--bg-color);
+    top: 6px;
+    right: 6px;
     cursor: pointer;
-    margin-right: 10px;
-    transition: background-color 0.3s;
 }
-
-input[type="submit"]:hover {
-    background-color: #4cae4c;
+.div2{
+	display: flex; justify-content: center;width: 100%;
 }
-
-input[type="reset"] {
-    background-color: #d9534f;
+.div2 div{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 50%;
 }
-
-input[type="reset"]:hover {
-    background-color: #c9302c;
-}
-
-.required {
-    color: red;
-}
-

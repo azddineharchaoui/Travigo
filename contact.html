@@ -22,62 +22,32 @@
 
 	<!--header--->
 	<header>
-		<a href="#" class="logo"><img src="img/logo.jpg" style="width:80px; height: 80px;"></a>
+		<a href="index.html" class="logo"><img src="img/logo.png" style="width:80px; height: 80px;"></a>
 		<div class="bx bx-menu" id="menu-icon"></div>
 
 		<ul class="navbar">
 			<li><a href="index.html">Home</a></li>
 			<li><a href="Tours.html">Tours</a></li>
+			<li><a href="bouking.html">Bouking</a></li>
 			<li><a href="about.html">About</a></li>
 			<li><a href="contact.html">Contact Us</a></li>
 		</ul>
 	</header>
 
 
-	<section id="contactUs" style="margin-top: 100px;">
-	<h1>Contact Us</h1>
+	<section class="contact" style="margin-top: 100px;">
+		
+	<div >
+		<h1>Contact Us</h1>
 	<form name="myForm"  method="post">
-	   <table class="form-style">
-		  <tr>
-			 <td>
-				<label>
-				   Votre nom <span class="required">*</span>
-				</label>
-			 </td>
-			 <td>
-				<input type="text" name="name" class="long"/>
-			 </td>
-		  </tr>
-		  <tr>
-			 <td>
-				<label>
-				   Votre adresse e-mail <span class="required">*</span>
-				</label>
-			 </td>
-			 <td>
-				<input type="email" name="email" class="long"/>
-			 </td>
-		  </tr>
-		  <tr>
-			 <td>
-				<label>
-				   Message <span class="required">*</span>
-				</label>
-			 </td>
-			 <td>
-				<textarea name="message" class="long field-textarea"></textarea>
-			 </td>
-		  </tr>
-		  <tr>
-			 <td></td>
-			 <td>
-				<input type="submit" value="Envoyer">      
-				<input type="reset" value="Réinitialiser"> 
-			 </td>
-		  </tr>
-	   </table>
+		<input type="text" id="fname" name="firstname" placeholder="Prénom">
+		<input type="text" id="lname" name="lastname" placeholder="Nom">
+		<input type="email" placeholder="Email" required>
+		<textarea id="message" name="message" placeholder="Message" style="height:200px"></textarea>
+		<input type="submit" value="Envoyer">
 	</form>
 
+	</div>
 </section>
 
 	<!--footer--->
