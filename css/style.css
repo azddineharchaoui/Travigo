@@ -586,6 +586,9 @@ input[type=text], select, textarea {
     border: none;
     border-radius: 15px;
 }
+.contact1 form input.radio1{
+	width:auto;
+}
 .contact1 form textarea{
     display: inline-block;
     width: 100%;
